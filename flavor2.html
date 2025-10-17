@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+    body{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        background-color: rgb(250, 222, 228);
+        text-align: center;
+        color:darkgreen;
+    }
+    
+   </style>
+</head>
+<body>
+   
+
+   <!-- style tag want in head -->
+    <!-- radio -- checkbox -->
+     <!-- form action should go to another page -->
+      <!-- on info page, 2 anchor tags on back first page, one to website -->
+    <h1>Bloomies Plant's checkout</h1>
+    <form action="flavor.html" method="get">
+        <h2>Please fill out all fields</h2>
+
+        <label for="qq1">Is this order a gift?</label>
+
+        <input type="checkbox" name="q1" id="qq1" value="gift">
+
+        <p> Name: <input type="text" id="name" name="what is your name" placeholder="First and last name"> </p>
+        <p> Contact: <input type="text" id="email" name="what is your email" placeholder="email or phone number"> </p>
+        <p> Delivery: <input type="text" id=" deliveryname" name="deliveryname" placeholder="First name"> <input type="text" id="first name" name="deliveryname" placeholder="Last name"></p>
+        <p> <input type="text" id="address" name="deliveryname" placeholder="Address"> <input type="text" id="first name" name="deliveryname" placeholder="Apartment, suite, etc"></p>
+        <p> <input type="text" id="city" name="city" placeholder="City"> <input type="text" id="state" name="state" placeholder="State"> <input type="text" id="state" name="state" placeholder="Zip code"></p>
+
+        <h3>What plant are you purchasing today?</h3>
+        <select name="whichplant">
+
+        <option value="plant"> Plant options</option>
+        <option value="plant1">Monstera Deliciosa</option>
+        <option value="plant2">Calathea Rattlesnake</option>
+        <option value="plant3">Pink Polka Dot plant</option>
+        
+        </select>
+
+        <h3>Select payment method</h3>
+        <select name="select">
+            <option value="option1"> Credit Card</option>
+            <option value="option2"> PayPal</option>
+            <option value="option3"> Apple Pay</option>
+            
+        </select>
+
+
+         <p><input type="submit" placeholder="Submit Order"></p>
+
+
+
+
+
+
+
+    </form>
+    
+</body>
+</html>
