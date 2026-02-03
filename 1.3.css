@@ -1,0 +1,37 @@
+.firstDiv{
+  color: rgb(227, 150, 183);
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border: orange;
+  border-width: thick; /* 10 px */
+  border-style: dotted;
+  margin-right: 475px;
+  background-color: antiquewhite;
+  margin-bottom: 20px ;
+}
+
+.secondDiv{
+  color: rgb(177, 198, 239);
+  font-family:monospace;
+  font-size: 40;
+  text-align: right;
+  background-color: coral;
+  margin-left: 90px;
+  margin-right: 400px;
+  padding-top: 40px ;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  
+}
+
+.thirdDiv{
+    color: rgb(232, 138, 94);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(164, 7, 107);
+    font-size: large;
+    text-align:center;
+    margin-left: 90px;
+    margin-right: 90px;
+    padding-top:10px ;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
